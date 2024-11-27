@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  	<link rel="stylesheet" href="cart.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<script src="./js/productos.js"></script>
+  	<script src="./js/cartService.js" defer></script>
+	<script src="./js/cart.js" defer></script>
+	<script src="./js/index.js" defer></script>
+	<title>Anta Soluciones Integrales</title>
+</head>
+<body class="contenedor">
+	<header class="header">
+		<a href="./index.html"><img src="img/ANTA logo.png" alt="Logo" id="logo"></a>
+		<button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+		<nav class="nav" id="nav">
+			<button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+			<div class="nav-list">
+				<li><a class="active" href="#info"><strong>Inicio</strong></a></li>
+                <li><a href="#info"><strong>Quienes somos</strong></a></li>
+                <li><a href="#prod"><strong>Productos</strong></a></li>
+                <li><a href="#contactos"><strong>Contactos</strong></a></li>
+                <li><a href="#form-details"><strong>Consultas por mayor</strong></a></li>
+                <li><a href="cart.html"><i class="bi bi-cart"><span id="cuenta-carrito">0</span></i></a></li>
+				<li><a href="login/login.html"><i class="bi bi-person-fill"></i></a></li>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
+		<section id="cart-container">
+		</section>
+  		<section id="totales">
+    		<p>Total unidades: <span id="cantidad">0</span></p>
+    		<p>Total precio: $<span id="precio">0</span></p>
+    		<button class="botones-carrito" disabled>Comprar</button>
+    		<button id="reiniciar" class="botones-carrito">Reiniciar</button>
+  		</section>
+	</main>
+	<footer class="section-p1">
+        <div class="col">
+            <h4>Contactos</h4>
+            <p><strong>Direccion: </strong> San Martin 1800, 4400 - Salta, Argentina.</p>
+            <p><strong>Telefono: </strong> +054 3875510489</p>
+            <p><strong>Horarios: </strong> 9:00 - 13:00, 17:00 - 21:00, Lunes - Viernes.</p>
+        </div>
+        <div class="follow">
+            <h4>Seguinos</h4>
+            <div class="icon">
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/5493875510489" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©Anta Soluciones Integrales - 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

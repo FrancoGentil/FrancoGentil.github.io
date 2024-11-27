@@ -1,0 +1,230 @@
+/* Esta lista podría ser reemplazada por la respuesta de un backend */
+const bicicletas = [
+  //Baterias Mateo
+  {
+    id: "bateriaMateo-12x50",
+    titulo: "Bateria 12x50 amp",
+    imagen: "img/12x50/12x50.webp",
+    precio: 95100,
+  },
+  {
+    id: "bateriaMateo-12x55",
+    titulo: "Bateria 12x55 amp",
+    imagen: "img/12x55/12x55.webp",
+    precio: 84800,
+  },
+  {
+    id: "bateriaMateo-12x65",
+    titulo: "Bateria 12x65 amp",
+    imagen: "img/12x65/12x65.webp",
+    precio: 98950,
+  },
+  {
+    id: "bateriaMateo-12x75",
+    titulo: "Bateria 12x75 amp",
+    imagen: "img/12x75/12x75.webp",
+    precio: 109200,
+  },
+  {
+    id: "bateriaMateo-12x80",
+    titulo: "Bateria 12x80 amp",
+    imagen: "img/12x80/12x80.webp",
+    precio: 125100,
+  },
+  {
+    id: "bateriaMateo-85",
+    titulo: "Bateria 12x85 amp",
+    imagen: "img/12x85/12x85.webp",
+    precio: 142650,
+  },
+  {
+    id: "bateriaMateo-12x90",
+    titulo: "Bateria 12x90 amp",
+    imagen: "img/12x90/12x90.webp",
+    precio: 158500,
+  },
+  {
+    id: "bateriaMateo-12x110",
+    titulo: "Bateria 12x110 amp",
+    imagen: "img/12x110/110.webp",
+    precio: 184800,
+  },
+  {
+    id: "bateriaMateo-12x110B",
+    titulo: "Bateria 12x110B amp",
+    imagen: "img/12x110B/12x110B.webp",
+    precio: 175800,
+  },
+  {
+    id: "bateriaMateo-12x120",
+    titulo: "Bateria 12x120 amp",
+    imagen: "img/12x120/12x120.webp",
+    precio: 210800,
+  },
+  {
+    id: "bateriaMateo-12x160",
+    titulo: "Bateria 12x160 amp",
+    imagen: "img/12x160/12x160.webp",
+    precio: 269050,
+  },
+  {
+    id: "bateriaMateo-12x180",
+    titulo: "Bateria 12x180 amp",
+    imagen: "img/12x180/12x180.webp",
+    precio: 284550,
+  },
+  //Baterias Willard
+  {
+    id: "bateriasWillard-DYN45",
+    titulo: "Baterias DYN 45",
+    imagen: "img/dyn45/dyn45.webp",
+    precio: 87900,
+  },
+  {
+    id: "bateriasWillard-DYN55",
+    titulo: "Baterias DYN 55",
+    imagen: "img/dyn55/dyn55.webp",
+    precio: 89700,
+  },
+  {
+    id: "bateriasWillard-DYN65",
+    titulo: "Baterias DYN 65",
+    imagen: "img/dyn65/dyn65.webp",
+    precio: 105300,
+  },
+  {
+    id: "bateriasWillard-DYN75",
+    titulo: "Baterias DYN 75",
+    imagen: "img/dyn75/dyn75.webp",
+    precio: 128600,
+  },
+  {
+    id: "bateriasWillard-DYN80",
+    titulo: "Baterias DYN 80",
+    imagen: "img/dyn80/dyn80.webp",
+    precio: 124700,
+  },
+  {
+    id: "bateriasWillard-DYN85",
+    titulo: "Baterias DYN 85",
+    imagen: "img/dyn85/dyn85.webp",
+    precio: 146100,
+  },
+  {
+    id: "bateriasWillard-UB620AG",
+    titulo: "Baterias UB 620 Ag",
+    imagen: "img/UB620Ag/UB620Ag.webp",
+    precio: 155000,
+  },
+  //Baterias Maxtron
+  {
+    id: "bateriasMaxtron-Mx445",
+    titulo: "Bateria Mx445",
+    imagen: "img/Mx445/Mx445.webp",
+    precio: 81250,
+  },
+  {
+    id: "bateriasMaxtron-Mx500",
+    titulo: "Bateria Mx500",
+    imagen: "img/Mx500/Mx500.webp",
+    precio: 84750,
+  },
+  {
+    id: "bateriasMaxtron-Mx630",
+    titulo: "Bateria Mx630",
+    imagen: "img/Mx630/Mx630.webp",
+    precio: 95350,
+  },
+  {
+    id: "bateriasMaxtron-Mx920",
+    titulo: "Bateria Mx920",
+    imagen: "img/Mx920/Mx920.webp",
+    precio: 154850,
+  },
+  {
+    id: "bateriasMaxtron-Mx1140",
+    titulo: "Bateria Mx1140",
+    imagen: "img/Mx1140/Mx1140.webp",
+    precio: 245850,
+  },
+  //Aditivos
+  {
+    id: "molykote-A2 Turbo",
+    titulo: "A2 Turbo x150cm3",
+    imagen: "img/molykote/a2turbo.jpg",
+    precio: 9550,
+  },
+  {
+    id: "molykote-A4 Turbo",
+    titulo: "A4 Turbo x300cm3",
+    imagen: "img/molykote/a4turbo.jpg",
+    precio: 15300,
+  },
+  {
+    id: "molykote-Br2 Plus",
+    titulo: "Br2 Plus x100gr",
+    imagen: "img/molykote/br2plus100gr.jpg",
+    precio: 5600,
+  },
+  {
+    id: "molykote-Br2 Plus 18kg",
+    titulo: "Br2 Plus x18kg",
+    imagen: "img/molykote/br2plus18kg.png",
+    precio: 750000,
+  },
+  {
+    id: "molykote-Chem Cleaner Diesel",
+    titulo: "Chem Cleaner Diesel x150cm3",
+    imagen: "img/molykote/cleanerdiesel.jpg",
+    precio: 7400,
+  },
+  {
+    id: "molykote-Chem Cleaner Nafta",
+    titulo: "Chem Cleaner Nafta x150cm3",
+    imagen: "img/molykote/cleanernafta.jpg",
+    precio: 2500,
+  },
+  {
+    id: "molykote-Fc Heavy Truck",
+    titulo: "Fc Heavy Truck x100cm3",
+    imagen: "img/molykote/fcheavytruck.jpg",
+    precio: 11950,
+  },
+  {
+    id: "molykote-Fc Plus",
+    titulo: "Fc Plus x60cm3",
+    imagen: "img/molykote/fcplus.png",
+    precio: 9130,
+  },
+  {
+    id: "molykote-Oil Stabilisator",
+    titulo: "Oil Stabilisator x300cm3",
+    imagen: "img/molykote/oilstabilisatorx300cm3.jpg",
+    precio: 7450,
+  },
+  //Liquidos de Frenos
+  {
+    id: "liquidosFrenos-Brk x200cc",
+    titulo: "Liquido de Frenos BRK x200cc",
+    imagen: "img/liquidosfrenos/brkx200cc.webp",
+    precio: 2115,
+  },
+  {
+    id: "liquidosFrenos-Brk x500cc",
+    titulo: "Liquido de Frenos BRK x500cc",
+    imagen: "img/liquidosfrenos/brkx500cc.webp",
+    precio: 3100,
+  },
+  {
+    id: "liquidosFrenos-Brk x1L",
+    titulo: "Liquido de Frenos BRK x1L",
+    imagen: "img/liquidosfrenos/brkx1L.webp",
+    precio: 4520,
+  },
+  {
+    id: "liquidosFrenos-Brk x20L",
+    titulo: "Liquido de Frenos BRK x20L",
+    imagen: "img/liquidosfrenos/brkx20L.webp",
+    precio: 91200,
+  },
+];

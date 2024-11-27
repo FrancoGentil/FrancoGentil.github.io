@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<script src="./js/productos.js"></script>
+	<script src="./js/cartService.js" defer></script>
+	<script src="./js/index.js" defer></script>
+	<title>Anta Soluciones Integrales</title>
+</head>
+<body>
+	<header class="header">
+		<a href="./index.html"><img src="img/ANTA logo.png" alt="Logo" id="logo"></a>
+		<button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+		<nav class="nav" id="nav">
+			<button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+			<div class="nav-list">
+				<li><a class="active" href="#info"><strong>Inicio</strong></a></li>
+                <li><a href="#info"><strong>Quienes somos</strong></a></li>
+                <li><a href="#prod"><strong>Productos</strong></a></li>
+                <li><a href="#contactos"><strong>Contactos</strong></a></li>
+                <li><a href="#form-details"><strong>Consultas por mayor</strong></a></li>
+                <li><a href="cart.html"><i class="bi bi-cart"><span id="cuenta-carrito">0</span></i></a></li>
+                <li><a href="login.html"><i class="bi bi-person-fill"></i></a></li>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section id="info"></section>
+            <div class="container">
+                <div class="about">
+                    <div class="about-image">
+                        <img src="img/ANTA.png">
+                    </div>
+                    <div class="about-content">
+                        <h3>¿Quienes somos?</h3>
+                        <p>Bienvenidos a Anta Soluciones Integrales, su socio de confianza en la venta de repuestos para vehículos. Con años de experiencia en el sector, nos dedicamos a ofrecer una amplia gama de productos de alta calidad para todo tipo de vehículos, desde automóviles particulares hasta vehículos de gran porte. 
+                        En Anta Soluciones Integrales, nos enorgullece ofrecer un servicio personalizado, asegurando que cada cliente reciba el repuesto adecuado. Para ello, nuestro equipo de expertos está siempre disponible para brindar asesoría técnica y atender todas sus necesidades con rapidez y eficiencia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<h2 id="prod">Productos</h2>
+		<section id="productos-container">
+		</section>
+		<h2 class="section-contact">Contactos</h2>
+        <section id="contactos" class="section-p1">
+            <div class="details">
+                <h2>Visita nuestra sucursal o contactate con nosotros</h2>
+                <h3>Sucursal central</h3>
+                <div class="li">
+                    <li>
+                        <i class="bi bi-map"></i>
+                        <p>San Martin 1800, 4400 - Salta, Argentina.</p>
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        <p>antasolucionesintegrales@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        <p>+054 3875510489</p>
+                    </li>
+                    <li>
+                        <i class="bi bi-clock"></i>
+                        <p>9:00 - 13:00, 17:00 - 21:00, Lunes - Viernes.</p>
+                    </li>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12183.203417963017!2d-65.4355854313649!3d-24.79243843013181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b2abf6986d%3A0xb9806362ce67bbad!2sAv.%20San%20Mart%C3%ADn%201800%2C%20A4400%20Salta!5e0!3m2!1ses-419!2sar!4v1725395576159!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+		<h2 class="section-clients">Consultas por mayor</h2>
+        <section id="form-details">
+            <form action="https://formspree.io/f/xnnqaegg" method="POST">
+                <h2>Complete este formulario</h2>
+                <input type="text" placeholder="Nombre" name="name">
+                <input type="text" placeholder="Correo electronico" name="email">
+                <input type="text" placeholder="Asunto" name="subject">
+                <textarea id="" cols="30" rows="10" placeholder="Comentarios" name="comments"></textarea>
+                <button class="boton" type="submit" value="Enviar">Enviar</button>
+            </form>
+        </section>
+	</main>
+	<footer class="section-p1">
+        <div class="col">
+            <h4>Contactos</h4>
+            <p><strong>Direccion: </strong> San Martin 1800, 4400 - Salta, Argentina.</p>
+            <p><strong>Telefono: </strong> +054 3875510489</p>
+            <p><strong>Horarios: </strong> 9:00 - 13:00, 17:00 - 21:00, Lunes - Viernes.</p>
+        </div>
+        <div class="follow">
+            <h4>Seguinos</h4>
+            <div class="icon">
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/5493875510489" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©Anta Soluciones Integrales - 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

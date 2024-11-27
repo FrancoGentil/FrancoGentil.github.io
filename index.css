@@ -1,0 +1,42 @@
+/* Productos home*/
+#productos-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta-producto{
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  max-width: 350px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+.tarjeta-producto:hover{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  translate: 0px -5px;
+}
+
+.tarjeta-producto img{
+  max-width:100%;
+  aspect-ratio: 1.5;
+}
+
+.precio{
+  font-weight: 600;
+  color: #088178;
+}
+
+.tarjeta-producto button{
+  font-size: larger;
+  background-color: #212934;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  border:unset;
+  cursor:pointer;
+}
