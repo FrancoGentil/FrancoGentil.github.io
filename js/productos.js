@@ -52,7 +52,7 @@ const bicicletas = [
   {
     id: "bateriaMateo-12x110B",
     titulo: "Bateria 12x110B amp",
-    imagen: "img/12x110B/12x110B.webp",
+    imagen: "img/12x110B/12x110b.webp",
     precio: 175800,
   },
   {
